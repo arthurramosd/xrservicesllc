@@ -2,7 +2,7 @@
   "useSmtp": true,
   "host": "smtp.gmail.com",
   "port": 587,
-  "username": "pauloheythor2000@gmail.com",
-  "password": "Negocios@2000",
-  "recipientEmail": "pauloheythor2000@gmail.com"
+  "username": "contact@xrsericesllc.com",
+  "password": "webcheats",
+  "recipientEmail": "contact@xrservicesllc.com"
 }
