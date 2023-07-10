@@ -1,8 +1,0 @@
-{
-  "useSmtp": false,
-  "host": "smtp.gmail.com",
-  "port": 587,
-  "username": "contact@xrsericesllc.com",
-  "password": "webcheats",
-  "recipientEmail": "contact@xrservicesllc.com"
-}
