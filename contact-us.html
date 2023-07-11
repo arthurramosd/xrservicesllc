@@ -134,10 +134,34 @@
             </div>
           </article>
 
-<form action="https://formsubmit.co/contact@xrservicesllc.com" method="POST">
-     <input type="text" name="name" required>
-     <input type="email" name="email" required>
-     <button type="submit">Send</button>
+<form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global"  method="post" action="https://formsubmit.co/contact@xrservicesllc.com">
+  <div class="row row-14 gutters-14">
+    <div class="col-md-4">
+      <div class="form-wrap">
+        <input class="form-input" type="text" name="name" data-constraints="@Required">
+
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="form-wrap">
+        <input class="form-input" type="email" name="email" data-constraints="@Email @Required">
+
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="form-wrap">
+        <input class="form-input" type="text" name="phone" data-constraints="@Numeric">
+
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-wrap">
+
+        <textarea class="form-input textarea-lg" name="message" data-constraints="@Required"></textarea>
+      </div>
+    </div>
+  </div>
+  <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
 </form>
 
 

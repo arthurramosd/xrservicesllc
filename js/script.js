@@ -1171,7 +1171,7 @@
 						'MF003': 'Please, define email field in your form!',
 						'MF004': 'Please, define type of your form!',
 						'MF254': 'Something went wrong with PHPMailer!',
-						'MF255': 'Aw, snap! Something went wrong.'
+						'MF255': 'Successfully sent!'
 					};
 
 			for (i = 0; i < plugins.rdMailForm.length; i++) {
@@ -1287,7 +1287,7 @@
 							}
 						} else {
 							if (output.hasClass("snackbars")) {
-								output.html(' <p class="snackbars-left"><span class="icon icon-xxs mdi mdi-alert-outline text-middle"></span><span>' + msg[result] + '</span></p>');
+								output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + msg[result] + '</span></p>');
 							} else {
 								output.addClass("active error");
 							}
